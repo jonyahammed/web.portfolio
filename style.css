@@ -1,0 +1,21 @@
+body{
+    font-family: 'Murecho', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.jony{
+    color: rgb(247, 9, 56);
+}
+.half-screen{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 3%;
+  
+
+}
+.half-screen img{
+    width: 100%;
+}
