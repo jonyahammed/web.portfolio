@@ -1,9 +1,13 @@
 body{
+    margin: 0px;
     font-family: 'Murecho', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .jony{
     color: rgb(247, 9, 56);
@@ -18,4 +22,62 @@ h1{
 }
 .half-screen img{
     width: 100%;
+}
+
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgba(240, 24, 9, 0.959), rgb(179, 57, 57)) ;
+    border-radius: 5px;
+    font-weight: 800px;
+    color: rgb(245, 240, 240);
+    padding: 10px 20px;
+
+}
+#dream{
+    color: crimson;
+}
+.margin{
+    margin: 0px 70px;
+}
+p{
+    color: rgb(54, 50, 50);
+}
+.background{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 30px;
+}
+.box-shedow{
+    box-shadow: 10px 10px 20px grey;
+    height: 60%;
+    background-color: white;
+}
+
+.bg-pic{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#style{
+  border-left: 8px solid;
+  border-image: linear-gredient(180deg, blue, green);
+  border-image-slice: 1;
+}
+#design{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, orange, black);
+    border-image-slice: 1;
 }
